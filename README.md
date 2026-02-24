@@ -6,7 +6,7 @@ This organization is a collaborative space for the working group and others to c
 
 Metadata standards for time series data.
 
-- mt-metadata: https://github.com/kujaku11/mt_metadata
+- [mt-metadata](https://github.com/kujaku11/mt_metadata)
 
 ## Time Series
 

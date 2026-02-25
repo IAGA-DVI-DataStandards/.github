@@ -1,6 +1,6 @@
 # IAGA Division VI Working Group for MT Data Standards  
 
-This organization is a collaborative space for the working group and others to communicate about magnetotelluric (MT) data standards for time series and transfer function.
+This organization is a collaborative space for the working group and others to communicate about magnetotelluric (MT) data standards for time series, transfer functions, and models.
 
 ## Metadata Standards
 

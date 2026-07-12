@@ -6,7 +6,7 @@ This organization is a collaborative space for the working group and others to c
 
 Metadata standards for time series data.
 
-- [mt-metadata](https://github.com/kujaku11/mt_metadata)
+- [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt_metadata)
 
 ## Time Series
 
@@ -14,7 +14,7 @@ The proposed standard format for time series is MTH5.
 
 ### Repositories
 
-- [MTH5](https://github.com/kujaku11/mth5)
+- [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5)
   - [mt-timeseries](https://github.com/IAGA-DVI-DataStandards/mt-timeseries)
   - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io)
 - [MTH5 Test Data](https://github.com/kujaku11/mth5_test_data)

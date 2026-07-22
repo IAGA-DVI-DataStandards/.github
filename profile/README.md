@@ -1,31 +1,17 @@
 # IAGA Division VI Working Group for MT Data Standards  
 
-This organization is a collaborative space for the working group and others to communicate about magnetotelluric (MT) data standards for time series, transfer functions, and models.
+This group repository is a collaborative space for the working group and others to develop and communicate magnetotelluric (MT) data standards for time series, transfer functions, and models.  
 
-## Metadata Standards
+The main documentation is an book created with [MyST](https://mystmd.org/) and is located here [MTH5 Documentation](https://iaga-dvi-datastandards.github.io/mth5_documentation.github.io/).
 
-Metadata standards for time series data.
+# Repositories
+Within this repository are all the repositories for working with MTH5 files:
 
-- [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt_metadata)
-
-## Time Series
-
-The proposed standard format for time series is MTH5. 
-
-### Documentation
-[MTH5 Documentation](https://iaga-dvi-datastandards.github.io/mth5_documentation.github.io/)
-
-### Repositories
-
-- [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5)
-  - [mt-timeseries](https://github.com/IAGA-DVI-DataStandards/mt-timeseries)
-  - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io)
-- [MTH5 Test Data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data)
-
-
-## Transfer Functions
-
-TODO
+- [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5) --> Main package for creating, manipulating, and interrogating MTH5 files. Built on [h5py](https://docs.h5py.org/en/stable/index.html).
+  - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io) --> Package for reading in various data types into `mt-timeseries` objects `ChannelTS` and `RunTS`.
+  - [mt-timeseries](https://github.com/IAGA-DVI-DataStandards/mt-timeseries) --> Package for time series containers `ChannelTS` and `RunTS`.  Built on [xarray](https://docs.xarray.dev/en/stable/index.html). 
+  - [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt_metadata) --> Build on [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) for fast validation.
+- [MTH5 Test Data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data) --> repository of test data for reading into `mt-timeseries` objects and building MTH5 files.
 
 # How To Contribute
 

@@ -17,7 +17,7 @@ The proposed standard format for time series is MTH5.
 - [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5)
   - [mt-timeseries](https://github.com/IAGA-DVI-DataStandards/mt-timeseries)
   - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io)
-- [MTH5 Test Data](https://github.com/kujaku11/mth5-test-data)
+- [MTH5 Test Data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data)
 - [MTH5 Documentation](https://iaga-dvi-datastandards.github.io/mth5_documentation.github.io/)
 
 ## Transfer Functions

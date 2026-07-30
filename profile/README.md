@@ -5,7 +5,16 @@ This group repository is a collaborative space for the working group and others 
 The main documentation is an book created with [MyST](https://mystmd.org/) and is located here [MTH5 Documentation](https://iaga-dvi-datastandards.github.io/mth5_documentation.github.io/).
 
 # Repositories
-Within this repository are all the repositories for working with MTH5 files:
+Within this repository are all the repositories for working with MTH5 files.  The hierarchy is
+
+```
+---------------     -----------------     ---------     --------     --------------
+| mt-metadata | --> | mt-timeseries | --> | mt-io | --> | mth5 | --> | mth5-panel | 
+---------------     -----------------     ---------     --------     --------------
+                                                           |     ------------------
+                                                           | --> | mth5-validator |
+                                                                 ------------------ 
+```
 
 - [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5) --> Main package for creating, manipulating, and interrogating MTH5 files. Built on [h5py](https://docs.h5py.org/en/stable/index.html).
   - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io) --> Package for reading in various data types into `mt-timeseries` objects `ChannelTS` and `RunTS`.
@@ -13,6 +22,7 @@ Within this repository are all the repositories for working with MTH5 files:
   - [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt_metadata) --> Build on [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) for fast validation.
 - [MTH5 Test Data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data) --> repository of test data for reading into `mt-timeseries` objects and building MTH5 files.
 - [mth5-panel](https://github.com/IAGA-DVI-DataStandards/mth5-panel) --> Panel application (GUI) to create MTH5 files and plot the time series.
+- [mth5-validator](https://github.com/IAGA-DVI-DataStandards/mth5-validator) --> Simple standalone validator for MTH5 files.
 
 # How To Contribute
 
@@ -30,3 +40,6 @@ If you would like to add functionality, fix a bug, or add documentation please c
 
 Feel free to raise a question on the discussion: https://github.com/orgs/IAGA-DVI-DataStandards/discussions.
 
+## Contribute Data
+
+For now, create a pull request in [mth5-test-data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data) with example data.  Follow the current structure of `mth5-test-data` for installation and add any pertinent information.  Try to keep the data to less than a 50 Mb zip file.  We are currently working on setting up an LFS dataset.

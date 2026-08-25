@@ -19,7 +19,7 @@ Within this repository are all the repositories for working with MTH5 files.  Th
 - [MTH5](https://github.com/IAGA-DVI-DataStandards/mth5) --> Main package for creating, manipulating, and interrogating MTH5 files. Built on [h5py](https://docs.h5py.org/en/stable/index.html).
   - [mt-io](https://github.com/IAGA-DVI-DataStandards/mt-io) --> Package for reading in various data types into `mt-timeseries` objects `ChannelTS` and `RunTS`.
   - [mt-timeseries](https://github.com/IAGA-DVI-DataStandards/mt-timeseries) --> Package for time series containers `ChannelTS` and `RunTS`.  Built on [xarray](https://docs.xarray.dev/en/stable/index.html). 
-  - [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt_metadata) --> Build on [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) for fast validation.
+  - [mt-metadata](https://github.com/IAGA-DVI-DataStandards/mt-metadata) --> Build on [Pydantic](https://pydantic.dev/docs/validation/latest/get-started/) for fast validation.
 - [MTH5 Test Data](https://github.com/IAGA-DVI-DataStandards/mth5-test-data) --> repository of test data for reading into `mt-timeseries` objects and building MTH5 files.
 - [mth5-panel](https://github.com/IAGA-DVI-DataStandards/mth5-panel) --> Panel application (GUI) to create MTH5 files and plot the time series.
 - [mth5-validator](https://github.com/IAGA-DVI-DataStandards/mth5-validator) --> Simple standalone validator for MTH5 files.
